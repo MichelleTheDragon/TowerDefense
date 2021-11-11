@@ -30,6 +30,7 @@ namespace Tower_Defense
             {
                 direction.Normalize();
             }
+        }
 
             public override bool Move()
         {
@@ -84,7 +85,7 @@ namespace Tower_Defense
     }
 }
 
-    }
+    
 
 
 

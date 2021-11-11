@@ -12,6 +12,17 @@ namespace Tower_Defense
     {
         // Variabler hentes fra Enemy superklassen
         private int strongHealth = 150;
+
+
+        /* Enemy skal spawnes ved wave start og skal bevæge sig til givne positioner.
+         * Enemy skal tage skade når den rammes af de forskellige skud fra tårnene.
+         * Enemy skal tage have nedsænket fart når det rammes af "slow" effekt fra freeze tower.
+         * Når enemy dør skal den sende dens værdi tilbage og tilføjes til spillerens guld
+         * Strong enemy er langsommere end normal enemies, men har mere helbred.
+        */
+
+
+
         public int Death(int strongValue)
         {
             strongValue = 15;
@@ -30,7 +41,7 @@ namespace Tower_Defense
 
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public override void Draw(SpriteBatch spriteBatch)
         {
 
         }

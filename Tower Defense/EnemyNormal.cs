@@ -13,6 +13,15 @@ namespace Tower_Defense
         // Variabler hentes fra Enemy superklassen
         private int normalHealth = 100;
 
+        /* Enemy skal spawnes ved wave start og skal bevæge sig til givne positioner.
+         * Enemy skal tage skade når den rammes af de forskellige skud fra tårnene.
+         * Enemy skal tage have nedsænket fart når det rammes af "slow" effekt fra freeze tower.
+         * Når enemy dør skal den sende dens værdi tilbage og tilføjes til spillerens guld
+         * Normal enemy er baseline for alle andre typer af enemies.
+        */
+
+
+
         public int Death (int normalValue)
         {
             normalValue = 10;
@@ -31,7 +40,7 @@ namespace Tower_Defense
 
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public override void Draw(SpriteBatch spriteBatch)
         {
 
         }

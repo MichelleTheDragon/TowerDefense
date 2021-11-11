@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mh\\source\\repos\\Tower Defense\\Tower Defense\\Tower Defense.csproj": {}
+    "C:\\Users\\mathi\\OneDrive\\Documents\\GitHub\\TowerDefenseCrossPlatform\\Tower Defense\\Tower Defense.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mh\\source\\repos\\Tower Defense\\Tower Defense\\Tower Defense.csproj": {
+    "C:\\Users\\mathi\\OneDrive\\Documents\\GitHub\\TowerDefenseCrossPlatform\\Tower Defense\\Tower Defense.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mh\\source\\repos\\Tower Defense\\Tower Defense\\Tower Defense.csproj",
+        "projectUniqueName": "C:\\Users\\mathi\\OneDrive\\Documents\\GitHub\\TowerDefenseCrossPlatform\\Tower Defense\\Tower Defense.csproj",
         "projectName": "Tower Defense",
-        "projectPath": "C:\\Users\\mh\\source\\repos\\Tower Defense\\Tower Defense\\Tower Defense.csproj",
-        "packagesPath": "C:\\Users\\mh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mh\\source\\repos\\Tower Defense\\Tower Defense\\obj\\",
+        "projectPath": "C:\\Users\\mathi\\OneDrive\\Documents\\GitHub\\TowerDefenseCrossPlatform\\Tower Defense\\Tower Defense.csproj",
+        "packagesPath": "C:\\Users\\mathi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathi\\OneDrive\\Documents\\GitHub\\TowerDefenseCrossPlatform\\Tower Defense\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\mh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
