@@ -25,11 +25,7 @@ namespace Tower_Defense
 
         public abstract void Update(GameTime gameTime);
 
-        public void Draw(SpriteBatch spriteBatch)
-        {
-
-        }
-
+        public abstract void Draw(SpriteBatch spriteBatch);
 
     }
 }
