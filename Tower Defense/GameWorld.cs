@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
 
 namespace Tower_Defense
 {
@@ -118,13 +119,13 @@ namespace Tower_Defense
                     switch (currentTypeSpawn)
                     {
                         case 1:
-                            myEnemies.Add(new Normal(enemyMovePattern));
+                            myEnemies.Add(new EnemyNormal(enemyMovePattern));
                             break;
                         case 2:
-                            myEnemies.Add(new Fast(enemyMovePattern));
+                            myEnemies.Add(new EnemyFast(enemyMovePattern));
                             break;
                         case 3:
-                            myEnemies.Add(new Strong(enemyMovePattern));
+                            myEnemies.Add(new EnemyStrong(enemyMovePattern));
                             break;
                     }
                     enemiesOfTypeSpawned++;
