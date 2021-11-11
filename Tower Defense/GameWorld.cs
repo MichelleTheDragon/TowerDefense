@@ -12,13 +12,15 @@ namespace Tower_Defense
 
         private List<Tower> myTowers = new List<Tower>();
         private List<Enemy> myEnemies = new List<Enemy>();
+
+
         private int[,] enemyMovePattern = new int[,] { { 2, 0 }, { 2, 3 }, { 4, 3 } };
         private int[,] enemyWaves = new int[,] { { 20, 0, 0 }, {10, 5, 2 } };
         private int currentWave = 0;
         private int enemiesOfTypeSpawned = 0;
         private int currentTypeSpawn = 0;
 
-        private int gold = 0;
+        public static int gold = 0;
         private float timeToWave = 30.0f;
         private float timeBetweenEnemies = 1.0f;
 
@@ -40,6 +42,7 @@ namespace Tower_Defense
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+
 
             // TODO: use this.Content to load your game content here
         }
@@ -92,11 +95,6 @@ namespace Tower_Defense
             _spriteBatch.End();
 
             base.Draw(gameTime);
-        }
-
-        public void GoldDrop(int gold)
-        {
-            this.gold = gold;
         }
 
         public void SpawnEnemyWave(GameTime gameTime)
